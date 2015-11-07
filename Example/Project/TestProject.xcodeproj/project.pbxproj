@@ -1,0 +1,1260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D43DF0471BED6B0E00D3B0A8 /* XPC_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DF0461BED6B0E00D3B0A8 /* XPC_Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43DF06A1BED6C6700D3B0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF04E1BED6C5C00D3B0A8 /* main.m */; };
+		D43DF06B1BED6C6700D3B0A8 /* XPC_A.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0501BED6C5C00D3B0A8 /* XPC_A.m */; };
+		D43DF06C1BED6C8700D3B0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0541BED6C5C00D3B0A8 /* main.m */; };
+		D43DF06D1BED6C8700D3B0A8 /* XPC_B.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0561BED6C5C00D3B0A8 /* XPC_B.m */; };
+		D43DF06E1BED6CC500D3B0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF05A1BED6C5C00D3B0A8 /* main.m */; };
+		D43DF06F1BED6CC500D3B0A8 /* XPC_C.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF05C1BED6C5C00D3B0A8 /* XPC_C.m */; };
+		D43DF0701BED6CE800D3B0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0601BED6C5C00D3B0A8 /* main.m */; };
+		D43DF0711BED6CE800D3B0A8 /* XPC_D.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0621BED6C5C00D3B0A8 /* XPC_D.m */; };
+		D43DF0721BED6D1100D3B0A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0661BED6C5C00D3B0A8 /* main.m */; };
+		D43DF0731BED6D1100D3B0A8 /* XPC_E.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0681BED6C5C00D3B0A8 /* XPC_E.m */; };
+		D43DF0771BED6D9B00D3B0A8 /* PrintHelloWord.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DF0741BED6D9B00D3B0A8 /* PrintHelloWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43DF0781BED6D9B00D3B0A8 /* PrintHelloWord.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0751BED6D9B00D3B0A8 /* PrintHelloWord.m */; };
+		D43DF07A1BED6E8200D3B0A8 /* XPC_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */; };
+		D43DF07B1BED6E8F00D3B0A8 /* XPC_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */; };
+		D43DF07C1BED6E9F00D3B0A8 /* XPC_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */; };
+		D43DF07E1BED6ECC00D3B0A8 /* XPC_Helper.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D43DF0801BED6EF200D3B0A8 /* XPC_Helper.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D43DF0821BED6F1400D3B0A8 /* XPC_Helper.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D43DF0841BED711900D3B0A8 /* xpc_c_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0831BED711900D3B0A8 /* xpc_c_utils.c */; };
+		D43DF0871BED73E100D3B0A8 /* PrintHelloWorldInC.c in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0851BED73E100D3B0A8 /* PrintHelloWorldInC.c */; };
+		D43DF0881BED73E100D3B0A8 /* PrintHelloWorldInC.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DF0861BED73E100D3B0A8 /* PrintHelloWorldInC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43DF08A1BED8F8600D3B0A8 /* xpc_c_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = D43DF0891BED8F8600D3B0A8 /* xpc_c_utils.c */; };
+		D78A17715C1C450BA5761C33 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93C05F1B49940A3ECA5FB6C /* Pods.framework */; };
+		F34347688EBE6DCC9DA6F598 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93C05F1B49940A3ECA5FB6C /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D43DF07D1BED6EA900D3B0A8 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D43DF07E1BED6ECC00D3B0A8 /* XPC_Helper.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF07F1BED6EE200D3B0A8 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D43DF0801BED6EF200D3B0A8 /* XPC_Helper.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0811BED6F0500D3B0A8 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D43DF0821BED6F1400D3B0A8 /* XPC_Helper.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02CF73125EE286D580F099A2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		572A28BCBDEE227A69B33502 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D43DF0061BED6AC600D3B0A8 /* XPC_A.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPC_A.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF01C1BED6ACC00D3B0A8 /* XPC_B.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPC_B.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF0271BED6AD400D3B0A8 /* XPC_C.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPC_C.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF0321BED6ADB00D3B0A8 /* XPC_D.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPC_D.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF03D1BED6AE300D3B0A8 /* XPC_E.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPC_E.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XPC_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43DF0461BED6B0E00D3B0A8 /* XPC_Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_Helper.h; sourceTree = "<group>"; };
+		D43DF0481BED6B0E00D3B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43DF04D1BED6C5C00D3B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43DF04E1BED6C5C00D3B0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43DF04F1BED6C5C00D3B0A8 /* XPC_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_A.h; sourceTree = "<group>"; };
+		D43DF0501BED6C5C00D3B0A8 /* XPC_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPC_A.m; sourceTree = "<group>"; };
+		D43DF0511BED6C5C00D3B0A8 /* XPC_AProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_AProtocol.h; sourceTree = "<group>"; };
+		D43DF0531BED6C5C00D3B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43DF0541BED6C5C00D3B0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43DF0551BED6C5C00D3B0A8 /* XPC_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_B.h; sourceTree = "<group>"; };
+		D43DF0561BED6C5C00D3B0A8 /* XPC_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPC_B.m; sourceTree = "<group>"; };
+		D43DF0571BED6C5C00D3B0A8 /* XPC_BProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_BProtocol.h; sourceTree = "<group>"; };
+		D43DF0591BED6C5C00D3B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43DF05A1BED6C5C00D3B0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43DF05B1BED6C5C00D3B0A8 /* XPC_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_C.h; sourceTree = "<group>"; };
+		D43DF05C1BED6C5C00D3B0A8 /* XPC_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPC_C.m; sourceTree = "<group>"; };
+		D43DF05D1BED6C5C00D3B0A8 /* XPC_CProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_CProtocol.h; sourceTree = "<group>"; };
+		D43DF05F1BED6C5C00D3B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43DF0601BED6C5C00D3B0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43DF0611BED6C5C00D3B0A8 /* XPC_D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_D.h; sourceTree = "<group>"; };
+		D43DF0621BED6C5C00D3B0A8 /* XPC_D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPC_D.m; sourceTree = "<group>"; };
+		D43DF0631BED6C5C00D3B0A8 /* XPC_DProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_DProtocol.h; sourceTree = "<group>"; };
+		D43DF0651BED6C5C00D3B0A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43DF0661BED6C5C00D3B0A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43DF0671BED6C5C00D3B0A8 /* XPC_E.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_E.h; sourceTree = "<group>"; };
+		D43DF0681BED6C5C00D3B0A8 /* XPC_E.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPC_E.m; sourceTree = "<group>"; };
+		D43DF0691BED6C5C00D3B0A8 /* XPC_EProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPC_EProtocol.h; sourceTree = "<group>"; };
+		D43DF0741BED6D9B00D3B0A8 /* PrintHelloWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintHelloWord.h; sourceTree = "<group>"; };
+		D43DF0751BED6D9B00D3B0A8 /* PrintHelloWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintHelloWord.m; sourceTree = "<group>"; };
+		D43DF0831BED711900D3B0A8 /* xpc_c_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xpc_c_utils.c; sourceTree = "<group>"; };
+		D43DF0851BED73E100D3B0A8 /* PrintHelloWorldInC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrintHelloWorldInC.c; sourceTree = "<group>"; };
+		D43DF0861BED73E100D3B0A8 /* PrintHelloWorldInC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintHelloWorldInC.h; sourceTree = "<group>"; };
+		D43DF0891BED8F8600D3B0A8 /* xpc_c_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xpc_c_utils.c; sourceTree = "<group>"; };
+		E93C05F1B49940A3ECA5FB6C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43DF0031BED6AC600D3B0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34347688EBE6DCC9DA6F598 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0171BED6ACC00D3B0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78A17715C1C450BA5761C33 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0221BED6AD400D3B0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF07A1BED6E8200D3B0A8 /* XPC_Helper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF02D1BED6ADB00D3B0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF07B1BED6E8F00D3B0A8 /* XPC_Helper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0381BED6AE300D3B0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF07C1BED6E9F00D3B0A8 /* XPC_Helper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0401BED6B0E00D3B0A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C9C0319562E7B56B2BF48F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93C05F1B49940A3ECA5FB6C /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E7D389232D3CF9BDD5335B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				572A28BCBDEE227A69B33502 /* Pods.debug.xcconfig */,
+				02CF73125EE286D580F099A2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D43DEFFB1BED6A7F00D3B0A8 = {
+			isa = PBXGroup;
+			children = (
+				D43DF04C1BED6C5C00D3B0A8 /* XPC_A */,
+				D43DF0521BED6C5C00D3B0A8 /* XPC_B */,
+				D43DF0581BED6C5C00D3B0A8 /* XPC_C */,
+				D43DF05E1BED6C5C00D3B0A8 /* XPC_D */,
+				D43DF0641BED6C5C00D3B0A8 /* XPC_E */,
+				D43DF0451BED6B0E00D3B0A8 /* XPC_Helper */,
+				D43DF0071BED6AC600D3B0A8 /* Products */,
+				9E7D389232D3CF9BDD5335B7 /* Pods */,
+				05C9C0319562E7B56B2BF48F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D43DF0071BED6AC600D3B0A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF0061BED6AC600D3B0A8 /* XPC_A.xpc */,
+				D43DF01C1BED6ACC00D3B0A8 /* XPC_B.xpc */,
+				D43DF0271BED6AD400D3B0A8 /* XPC_C.xpc */,
+				D43DF0321BED6ADB00D3B0A8 /* XPC_D.xpc */,
+				D43DF03D1BED6AE300D3B0A8 /* XPC_E.xpc */,
+				D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43DF0451BED6B0E00D3B0A8 /* XPC_Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF0461BED6B0E00D3B0A8 /* XPC_Helper.h */,
+				D43DF0481BED6B0E00D3B0A8 /* Info.plist */,
+				D43DF0741BED6D9B00D3B0A8 /* PrintHelloWord.h */,
+				D43DF0751BED6D9B00D3B0A8 /* PrintHelloWord.m */,
+				D43DF0861BED73E100D3B0A8 /* PrintHelloWorldInC.h */,
+				D43DF0851BED73E100D3B0A8 /* PrintHelloWorldInC.c */,
+			);
+			path = XPC_Helper;
+			sourceTree = "<group>";
+		};
+		D43DF04C1BED6C5C00D3B0A8 /* XPC_A */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF04D1BED6C5C00D3B0A8 /* Info.plist */,
+				D43DF04E1BED6C5C00D3B0A8 /* main.m */,
+				D43DF04F1BED6C5C00D3B0A8 /* XPC_A.h */,
+				D43DF0501BED6C5C00D3B0A8 /* XPC_A.m */,
+				D43DF0511BED6C5C00D3B0A8 /* XPC_AProtocol.h */,
+				D43DF0891BED8F8600D3B0A8 /* xpc_c_utils.c */,
+			);
+			path = XPC_A;
+			sourceTree = "<group>";
+		};
+		D43DF0521BED6C5C00D3B0A8 /* XPC_B */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF0531BED6C5C00D3B0A8 /* Info.plist */,
+				D43DF0541BED6C5C00D3B0A8 /* main.m */,
+				D43DF0551BED6C5C00D3B0A8 /* XPC_B.h */,
+				D43DF0561BED6C5C00D3B0A8 /* XPC_B.m */,
+				D43DF0571BED6C5C00D3B0A8 /* XPC_BProtocol.h */,
+			);
+			path = XPC_B;
+			sourceTree = "<group>";
+		};
+		D43DF0581BED6C5C00D3B0A8 /* XPC_C */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF0591BED6C5C00D3B0A8 /* Info.plist */,
+				D43DF05A1BED6C5C00D3B0A8 /* main.m */,
+				D43DF05B1BED6C5C00D3B0A8 /* XPC_C.h */,
+				D43DF05C1BED6C5C00D3B0A8 /* XPC_C.m */,
+				D43DF0831BED711900D3B0A8 /* xpc_c_utils.c */,
+				D43DF05D1BED6C5C00D3B0A8 /* XPC_CProtocol.h */,
+			);
+			path = XPC_C;
+			sourceTree = "<group>";
+		};
+		D43DF05E1BED6C5C00D3B0A8 /* XPC_D */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF05F1BED6C5C00D3B0A8 /* Info.plist */,
+				D43DF0601BED6C5C00D3B0A8 /* main.m */,
+				D43DF0611BED6C5C00D3B0A8 /* XPC_D.h */,
+				D43DF0621BED6C5C00D3B0A8 /* XPC_D.m */,
+				D43DF0631BED6C5C00D3B0A8 /* XPC_DProtocol.h */,
+			);
+			path = XPC_D;
+			sourceTree = "<group>";
+		};
+		D43DF0641BED6C5C00D3B0A8 /* XPC_E */ = {
+			isa = PBXGroup;
+			children = (
+				D43DF0651BED6C5C00D3B0A8 /* Info.plist */,
+				D43DF0661BED6C5C00D3B0A8 /* main.m */,
+				D43DF0671BED6C5C00D3B0A8 /* XPC_E.h */,
+				D43DF0681BED6C5C00D3B0A8 /* XPC_E.m */,
+				D43DF0691BED6C5C00D3B0A8 /* XPC_EProtocol.h */,
+			);
+			path = XPC_E;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D43DF0411BED6B0E00D3B0A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF0881BED73E100D3B0A8 /* PrintHelloWorldInC.h in Headers */,
+				D43DF0471BED6B0E00D3B0A8 /* XPC_Helper.h in Headers */,
+				D43DF0771BED6D9B00D3B0A8 /* PrintHelloWord.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D43DF0051BED6AC600D3B0A8 /* XPC_A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43DF0121BED6AC600D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_A" */;
+			buildPhases = (
+				DF3D8EF598D1264A2B52183E /* Check Pods Manifest.lock */,
+				D43DF0021BED6AC600D3B0A8 /* Sources */,
+				D43DF0031BED6AC600D3B0A8 /* Frameworks */,
+				D43DF0041BED6AC600D3B0A8 /* Resources */,
+				D7E7FE19A932E478E9848A13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPC_A;
+			productName = XPC_A;
+			productReference = D43DF0061BED6AC600D3B0A8 /* XPC_A.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		D43DF0131BED6ACC00D3B0A8 /* XPC_B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43DF0191BED6ACC00D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_B" */;
+			buildPhases = (
+				12CC122EBA510C0EB5C4F082 /* Check Pods Manifest.lock */,
+				D43DF0141BED6ACC00D3B0A8 /* Sources */,
+				D43DF0171BED6ACC00D3B0A8 /* Frameworks */,
+				D43DF0181BED6ACC00D3B0A8 /* Resources */,
+				3C1F4C28F4EDDFA8BF4CBB9B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPC_B;
+			productName = XPC_A;
+			productReference = D43DF01C1BED6ACC00D3B0A8 /* XPC_B.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		D43DF01E1BED6AD400D3B0A8 /* XPC_C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43DF0241BED6AD400D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_C" */;
+			buildPhases = (
+				D43DF01F1BED6AD400D3B0A8 /* Sources */,
+				D43DF0221BED6AD400D3B0A8 /* Frameworks */,
+				D43DF07D1BED6EA900D3B0A8 /* Copy Files */,
+				D43DF0231BED6AD400D3B0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPC_C;
+			productName = XPC_A;
+			productReference = D43DF0271BED6AD400D3B0A8 /* XPC_C.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		D43DF0291BED6ADB00D3B0A8 /* XPC_D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43DF02F1BED6ADB00D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_D" */;
+			buildPhases = (
+				D43DF02A1BED6ADB00D3B0A8 /* Sources */,
+				D43DF02D1BED6ADB00D3B0A8 /* Frameworks */,
+				D43DF07F1BED6EE200D3B0A8 /* Copy Frameworks */,
+				D43DF02E1BED6ADB00D3B0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPC_D;
+			productName = XPC_A;
+			productReference = D43DF0321BED6ADB00D3B0A8 /* XPC_D.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		D43DF0341BED6AE300D3B0A8 /* XPC_E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43DF03A1BED6AE300D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_E" */;
+			buildPhases = (
+				D43DF0351BED6AE300D3B0A8 /* Sources */,
+				D43DF0381BED6AE300D3B0A8 /* Frameworks */,
+				D43DF0811BED6F0500D3B0A8 /* Copy Frameworks */,
+				D43DF0391BED6AE300D3B0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPC_E;
+			productName = XPC_A;
+			productReference = D43DF03D1BED6AE300D3B0A8 /* XPC_E.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		D43DF0431BED6B0E00D3B0A8 /* XPC_Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43DF0491BED6B0E00D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_Helper" */;
+			buildPhases = (
+				D43DF03F1BED6B0E00D3B0A8 /* Sources */,
+				D43DF0401BED6B0E00D3B0A8 /* Frameworks */,
+				D43DF0411BED6B0E00D3B0A8 /* Headers */,
+				D43DF0421BED6B0E00D3B0A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPC_Helper;
+			productName = XPC_Helper;
+			productReference = D43DF0441BED6B0E00D3B0A8 /* XPC_Helper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43DEFFC1BED6A7F00D3B0A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					D43DF0051BED6AC600D3B0A8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D43DF0431BED6B0E00D3B0A8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D43DEFFF1BED6A7F00D3B0A8 /* Build configuration list for PBXProject "TestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D43DEFFB1BED6A7F00D3B0A8;
+			productRefGroup = D43DF0071BED6AC600D3B0A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43DF0051BED6AC600D3B0A8 /* XPC_A */,
+				D43DF0131BED6ACC00D3B0A8 /* XPC_B */,
+				D43DF01E1BED6AD400D3B0A8 /* XPC_C */,
+				D43DF0291BED6ADB00D3B0A8 /* XPC_D */,
+				D43DF0341BED6AE300D3B0A8 /* XPC_E */,
+				D43DF0431BED6B0E00D3B0A8 /* XPC_Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43DF0041BED6AC600D3B0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0181BED6ACC00D3B0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0231BED6AD400D3B0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF02E1BED6ADB00D3B0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0391BED6AE300D3B0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0421BED6B0E00D3B0A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CC122EBA510C0EB5C4F082 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1F4C28F4EDDFA8BF4CBB9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E7FE19A932E478E9848A13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3D8EF598D1264A2B52183E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43DF0021BED6AC600D3B0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF06A1BED6C6700D3B0A8 /* main.m in Sources */,
+				D43DF08A1BED8F8600D3B0A8 /* xpc_c_utils.c in Sources */,
+				D43DF06B1BED6C6700D3B0A8 /* XPC_A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0141BED6ACC00D3B0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF06D1BED6C8700D3B0A8 /* XPC_B.m in Sources */,
+				D43DF06C1BED6C8700D3B0A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF01F1BED6AD400D3B0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF06E1BED6CC500D3B0A8 /* main.m in Sources */,
+				D43DF0841BED711900D3B0A8 /* xpc_c_utils.c in Sources */,
+				D43DF06F1BED6CC500D3B0A8 /* XPC_C.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF02A1BED6ADB00D3B0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF0711BED6CE800D3B0A8 /* XPC_D.m in Sources */,
+				D43DF0701BED6CE800D3B0A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF0351BED6AE300D3B0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF0721BED6D1100D3B0A8 /* main.m in Sources */,
+				D43DF0731BED6D1100D3B0A8 /* XPC_E.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43DF03F1BED6B0E00D3B0A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43DF0781BED6D9B00D3B0A8 /* PrintHelloWord.m in Sources */,
+				D43DF0871BED73E100D3B0A8 /* PrintHelloWorldInC.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D43DF0001BED6A7F00D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D43DF0011BED6A7F00D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		D43DF0101BED6AC600D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572A28BCBDEE227A69B33502 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_A/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D43DF0111BED6AC600D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CF73125EE286D580F099A2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_A/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D43DF01A1BED6ACC00D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572A28BCBDEE227A69B33502 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_B/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D43DF01B1BED6ACC00D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CF73125EE286D580F099A2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_B/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D43DF0251BED6AD400D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_C/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D43DF0261BED6AD400D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_C/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D43DF0301BED6ADB00D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_D/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D43DF0311BED6ADB00D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_D/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D43DF03B1BED6AE300D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_E/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D43DF03C1BED6AE300D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_E/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-A";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D43DF04A1BED6B0E00D3B0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_Helper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D43DF04B1BED6B0E00D3B0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XPC_Helper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.example.XPC-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43DEFFF1BED6A7F00D3B0A8 /* Build configuration list for PBXProject "TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF0001BED6A7F00D3B0A8 /* Debug */,
+				D43DF0011BED6A7F00D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43DF0121BED6AC600D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF0101BED6AC600D3B0A8 /* Debug */,
+				D43DF0111BED6AC600D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43DF0191BED6ACC00D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF01A1BED6ACC00D3B0A8 /* Debug */,
+				D43DF01B1BED6ACC00D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43DF0241BED6AD400D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF0251BED6AD400D3B0A8 /* Debug */,
+				D43DF0261BED6AD400D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43DF02F1BED6ADB00D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF0301BED6ADB00D3B0A8 /* Debug */,
+				D43DF0311BED6ADB00D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43DF03A1BED6AE300D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF03B1BED6AE300D3B0A8 /* Debug */,
+				D43DF03C1BED6AE300D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43DF0491BED6B0E00D3B0A8 /* Build configuration list for PBXNativeTarget "XPC_Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43DF04A1BED6B0E00D3B0A8 /* Debug */,
+				D43DF04B1BED6B0E00D3B0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43DEFFC1BED6A7F00D3B0A8 /* Project object */;
+}
